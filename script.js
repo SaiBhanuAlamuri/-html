@@ -154,6 +154,8 @@ if (fav !== 23) {
 // const tired=true
 
 //Coding challege 3
+
+/*
 const a = 97
 const b = 112
 const c = 80
@@ -174,8 +176,33 @@ else if (avg2 == avg1 && avg1 >= 100 && avg2 >= 100) {
 else {
     console.log("No wins trophy");
 }
+*/
+//Switch statements
 
 
+const day = "sunday"
+switch (day) {
+    case 'monday':
+        console.log("Plan course structure");
+        console.log("Go to coding set up");
+        break;
+    case 'tuesday':
+        console.log("theory videos");
+        break;
+    case 'wednesday':
+    case 'thursday':
+        console.log("Write coding examples");
+        break;
+    case 'friday':
+    case 'saturday':
+        console.log("Endevouring knowledge");
+        break;
+    case 'sunday':
+        console.log("Enjoy the weekend");
+        break;
+    default:
+        console.log("Not a valid day")
 
 
+}
 
